@@ -17,7 +17,7 @@ func main() {
 	router.GET("/ping", handlePing)
 
 	//Server runs on everywhere IP and on 8080 port
-	router.Run("0.0.0.0:3000")
+	router.Run("0.0.0.0:8080")
 }
 
 //Function to handle the /ping endpoint
