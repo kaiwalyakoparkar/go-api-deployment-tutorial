@@ -8,8 +8,8 @@ config:
 ports:
   - protocol: "HTTPS"
     targetProtocol: "HTTP"
-    listeningPort: "8080"
-    targetPort: "8080"
+    listeningPort: "5000"
+    targetPort: "5000"
     targetIP: "172.17.0.1"
     public: true
     path: "/"
@@ -18,8 +18,8 @@ ports:
     password: ""
 exposedPorts:
   - protocol: "HTTP"
-    hostPort: "8080"
-    containerPort: "8080"
+    hostPort: "5000"
+    containerPort: "5000"
     interface: "172.17.0.1"
 environments:
   - key: "ENV"
