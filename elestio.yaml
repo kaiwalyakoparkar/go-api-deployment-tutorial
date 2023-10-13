@@ -25,5 +25,5 @@ environments:
   - key: "ENV"
     value: "production"
 webUI:
-  - url: "https://[CI_CD_DOMAIN]:8080/ping"
+  - url: "https://[CI_CD_DOMAIN]/ping"
     label: "Website"    
