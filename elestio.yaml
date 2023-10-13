@@ -8,7 +8,7 @@ config:
 ports:
   - protocol: "HTTPS"
     targetProtocol: "HTTP"
-    listeningPort: "5000"
+    listeningPort: "443"
     targetPort: "5000"
     targetIP: "172.17.0.1"
     public: true
